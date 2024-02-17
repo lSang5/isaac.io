@@ -96,7 +96,7 @@
 }
 .set-container {
     margin: 10px;
-    width: 1349px;
+    width: 1fr;
     height: 133px;
 
     border-radius: 40px;
