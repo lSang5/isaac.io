@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isaac.io</title>
+
+    <link rel="stylesheet" href="styles/lesson-text-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <img class="logo-corner" src="resources/images/logo-long.png">
+
+    <div class="general-container">
+        <h1 id="lesson-name" class="lesson-name">Título de la lección</h1>
+        
+        <button id="text-lesson-player-button-previous" class="text-lesson-player-button">
+            <span class="material-symbols-outlined">
+                arrow_circle_up
+                </span>
+        </button>
+
+        <div id="text-lesson-player" class="text-lesson-player">
+
+            <div class="lesson-text-container" id="lesson-text-container">
+                <p id="lesson-text" class="lesson-text"></p>
+            </div>
+        </div>
+
+        <button id="text-lesson-player-button-next" class="text-lesson-player-button">
+            <span class="material-symbols-outlined">
+                arrow_circle_down
+            </span>
+        </button>
+
+        <button id="lesson-end-button" class="lesson-end-button">Lección Terminada</button>
+    </div>
+
+    <script src="scripts/lesson-text.script.js"></script>
+</body>
+</html>

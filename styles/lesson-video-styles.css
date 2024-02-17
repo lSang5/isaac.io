@@ -1,0 +1,56 @@
+.logo-corner {
+    width: 200px;
+}
+
+.general-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lesson-name {
+    text-align: center;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: #ff8c8c;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.video-player{    
+    height: 615pd;
+    width: 736px;
+}
+
+.lesson-end-button {
+    margin: auto;
+    margin-top: 20px;
+    height: 60px;
+    width: 300px;
+
+
+    border-radius: 20px;
+    border-width: 0px;
+    
+    background-color: #ff8c8c;
+
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+    transition-property: box-shadow, scale;
+    transition-duration: 500ms;
+}
+.lesson-end-button:hover {
+    cursor: pointer;    
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    scale: 1.03;
+}
+
+.lesson-end-button:active {
+    background-color: #ff7e7e;
+}
