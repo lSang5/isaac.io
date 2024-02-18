@@ -4,6 +4,7 @@
 
 .general-container {
     display: flex;
+    width: 1fr;
     justify-content: center;
     flex-direction: column;
 }
@@ -15,31 +16,73 @@
     font-weight: 800;
     color: #ff8c8c;
 }
-.nombreset-label {
+
+
+
+.set-list {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 90%;
+}
+.set-container {
     margin: 10px;
+    width: 1fr;
+    height: 133px;
+
+    border-radius: 40px;
+    background: linear-gradient(240deg, rgba(255, 140, 140, 1) 0%,rgba(255, 140, 140, 0.55) 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    transition: all 300ms;
+}
+.set-container.set-special {
+    background: linear-gradient(240deg, #ab9eff 0%,#c8c0ff 100%);
+}
+.set-container:hover {
+    height: 333px
+}
+.set-container.set-long:hover {
+    height: 530px
+}
+
+
+.set-data {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nombreset-label {
+    margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(87, 84, 84, 1);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;  
 }
 .numlecciones-label{
-    margin: 10px;
+    margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(87, 84, 84, 1);
     font-size: 30px;
     font-weight: bold;  
 }
+
+
+
 .lessons-container {
     margin: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 .lesson-container {
     margin: 11px;
-    width: 264px;
-    height: 158px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 140px;
     border-radius: 25px;
     background-color: rgba(248, 130, 130, 1);
     border: 5px solid rgba(87, 84, 84, 1);
@@ -68,7 +111,7 @@
     width: 198.44px;
     margin: 20px 0px 0px 10px;
     color: rgba(87, 84, 84, 1);
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -81,36 +124,44 @@
     font-weight: bold;  
 }
 
-.set-data {
-    margin-top: 27px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+@media (max-width: 1100px) {
+    .lesson-container {
+        width: 150px;
+        height: 120px;
+    }
+    .namelesson-label {
+        font-size: 15px;
+        width: 140px;
+    }
+    .durlesson-label {
+        font-size: 15px;
+        width: 130px;
+    }
+}
+@media (max-width: 870px) {
+    .nombreset-label {
+        font-size: 30px;
+    }
+    .namelesson-label {
+        font-size: 20px;
+    }
+
+    .lesson-container {
+        width: 120px;
+        height: 120px;
+    }
+    .namelesson-label {
+        font-size: 15px;
+        width: 140px;
+    }
+    .durlesson-label {
+        font-size: 15px;
+        width: 130px;
+    }
 }
 
-.set-list {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    flex-direction: column;
-}
-.set-container {
-    margin: 10px;
-    width: 1fr;
-    height: 133px;
-
-    border-radius: 40px;
-    background: linear-gradient(240deg, rgba(255, 140, 140, 1) 0%,rgba(255, 140, 140, 0.55) 100%);
-
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
-    transition: all 300ms;
-}
-.set-container.set-special {
-    background: linear-gradient(240deg, #ab9eff 0%,#c8c0ff 100%);
-}
-.set-container:hover {
-    height: 333px;
+@media (min-width:1350px) {
+    .set-list {
+        width: 1215px;
+    }
 }
