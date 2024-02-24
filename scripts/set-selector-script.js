@@ -3,44 +3,58 @@ const setsData = [
         "id": "set-1-multipl",
         "name": "¿Sabes multiplicar?",
         "special": 0,
-        "lessonNumber": 0,
+        "lessonNumber": 3,
         "lessons": [
             {
                 "id": "set-1-1",
                 "name": "Introducción",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/text-data/example-1.txt"
+                "data": "resources/course-data/text-data/lesson1-1"
             },
             {
                 "id": "set-1-2",
-                "name": "Libros",
+                "name": "Aula de Clases",
                 "duration": 0,
-                "type": "text",
-                "data": "resources/course-data/text-data/example-1.txt"
+                "type": "video",
+                "data": "resources/course-data/video/example.mp4"
             },
             {
                 "id": "set-1-3",
-                "name": "Interés simple",
+                "name": "La Paga",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/text-data/example-1.txt"
+                "data": "resources/course-data/text-data/lesson1-3"
             },
         ]
     },
     {
-        "id": "set-2-problemas",
-        "name": "Ver problemas donde no los hay",
+        "id": "set-2-media",
+        "name": "En Medio",
         "special": 0,
-        "lessonNumber": 0,
+        "lessonNumber": 3,
         "lessons": [
             {
-                "id": "lesson-1",
-                "name": "Lección 1",
+                "id": "set-2-1",
+                "name": "Introducción",
                 "duration": 0,
-                "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "type": "text",
+                "data": "resources/course-data/lesson2-1"
             },
+            {
+                "id": "set-2-2",
+                "name": "Nota Media",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/lesson2-2"
+            },
+            {
+                "id": "set-2-3",
+                "name": "Alturas",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/lesson2-3"
+            }
         ]
     },
     {
