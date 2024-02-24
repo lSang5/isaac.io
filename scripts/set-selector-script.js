@@ -39,21 +39,21 @@ const setsData = [
                 "name": "Introducción",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/lesson2-1"
+                "data": "resources/course-data/text-data/lesson2-1"
             },
             {
                 "id": "set-2-2",
                 "name": "Nota Media",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/lesson2-2"
+                "data": "resources/course-data/text-data/lesson2-2"
             },
             {
                 "id": "set-2-3",
                 "name": "Alturas",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/lesson2-3"
+                "data": "resources/course-data/text-data/lesson2-3"
             }
         ]
     },
