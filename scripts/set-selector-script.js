@@ -68,7 +68,7 @@ const setsData = [
                 "name": "Lección 1",
                 "duration": 0,
                 "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "data": "resources/course-data/text-data/example-1.txt"
             },
         ]
     },
