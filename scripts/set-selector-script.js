@@ -61,15 +61,29 @@ const setsData = [
         "id": "set-3-hist",
         "name": "¡Extra!: historia curiosa",
         "special": 1,
-        "lessonNumber": 0,
+        "lessonNumber": 3,
         "lessons": [
             {
                 "id": "lesson-1",
-                "name": "Lección 1",
+                "name": "Introducción",
                 "duration": 0,
-                "type": "video",
-                "data": "resources/course-data/text-data/example-1.txt"
+                "type": "text",
+                "data": "resources/course-data/text-data/lesson3-1.txt"
             },
+            {
+                "id": "lesson-2",
+                "name": "Euler",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/text-data/lesson3-2.txt"
+            },
+            {
+                "id": "lesson-3",
+                "name": "Signo Igual",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/text-data/lesson3-3.txt"
+            }
         ]
     },
     {
