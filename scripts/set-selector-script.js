@@ -183,7 +183,7 @@ const setsData = [
     {
         "id": "set-7-velocidad",
         "name": "Velocidad y Rapidez",
-        "special": 1,
+        "special": 0,
         "lessonNumber": 4,
         "lessons": [
             {
