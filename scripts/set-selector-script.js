@@ -108,7 +108,7 @@ const setsData = [
             },
             {
                 "id": "set-4-3",
-                "name": "Vuelta a la Manzama",
+                "name": "Vuelta a la Manzana",
                 "duration": 0,
                 "type": "video",
                 "data": "resources/course-data/videos/example-2.mp4"
