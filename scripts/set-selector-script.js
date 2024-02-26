@@ -68,21 +68,21 @@ const setsData = [
                 "name": "Introducción",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/text-data/lesson3-1.txt"
+                "data": "resources/course-data/text-data/lesson3-1"
             },
             {
                 "id": "lesson-2",
                 "name": "Euler",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/text-data/lesson3-2.txt"
+                "data": "resources/course-data/text-data/lesson3-2"
             },
             {
                 "id": "lesson-3",
                 "name": "Signo Igual",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/text-data/lesson3-3.txt"
+                "data": "resources/course-data/text-data/lesson3-3"
             }
         ]
     },
