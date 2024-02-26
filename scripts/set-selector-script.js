@@ -64,21 +64,21 @@ const setsData = [
         "lessonNumber": 3,
         "lessons": [
             {
-                "id": "lesson-1",
+                "id": "set-3-1",
                 "name": "Introducción",
                 "duration": 0,
                 "type": "text",
                 "data": "resources/course-data/text-data/lesson3-1"
             },
             {
-                "id": "lesson-2",
+                "id": "set3-2",
                 "name": "Euler",
                 "duration": 0,
                 "type": "text",
                 "data": "resources/course-data/text-data/lesson3-2"
             },
             {
-                "id": "lesson-3",
+                "id": "set3-3",
                 "name": "Signo Igual",
                 "duration": 0,
                 "type": "text",
@@ -90,11 +90,39 @@ const setsData = [
         "id": "set-4-areas",
         "name": "Recto y Cuadrado",
         "special": 0,
-        "lessonNumber": 0,
+        "lessonNumber": 5,
         "lessons": [
             {
-                "id": "lesson-1",
-                "name": "Lección 1",
+                "id": "set-4-1",
+                "name": "Introducción",
+                "duration": 0,
+                "type": "video",
+                "data": "resources/course-data/videos/example-2.mp4"
+            },
+            {
+                "id": "set-4-2",
+                "name": "Perímetro",
+                "duration": 0,
+                "type": "video",
+                "data": "resources/course-data/videos/example-2.mp4"
+            },
+            {
+                "id": "set-4-3",
+                "name": "Vuelta a la Manzama",
+                "duration": 0,
+                "type": "video",
+                "data": "resources/course-data/videos/example-2.mp4"
+            },
+            {
+                "id": "set-4-4",
+                "name": "Área",
+                "duration": 0,
+                "type": "video",
+                "data": "resources/course-data/videos/example-2.mp4"
+            },
+            {
+                "id": "set-4-5",
+                "name": "Campo de  Fútbol",
                 "duration": 0,
                 "type": "video",
                 "data": "resources/course-data/videos/example-2.mp4"
@@ -105,77 +133,125 @@ const setsData = [
         "id": "set-5-curvas",
         "name": "¡Que vienen curvas!",
         "special": 0,
-        "lessonNumber": 0,
+        "lessonNumber": 5,
         "lessons": [
             {
-                "id": "lesson-1",
-                "name": "Lección 1",
+                "id": "set-5-1",
+                "name": "Introducción",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/videos/example-2.mp4"
+            },
+            {
+                "id": "set-5-2",
+                "name": "En Pocas Palabras",
                 "duration": 0,
                 "type": "video",
                 "data": "resources/course-data/videos/example-2.mp4"
             },
+            {
+                "id": "set-5-3",
+                "name": "Longitud",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/videos/example-2.mp4"
+            },
+            {
+                "id": "set-5-4",
+                "name": "Área",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/videos/example-2.mp4"
+            }
         ]
     },
     {
-        "id": "set-6-fisica",
-        "name": "¡Extra!: física asombrosa",
+        "id": "set-6-videojuegos",
+        "name": "¡Extra!: Mates y Videojuegos",
         "special": 1,
         "lessonNumber": 0,
         "lessons": [
             {
-                "id": "lesson-1",
-                "name": "Lección 1",
+                "id": "set-6-1",
+                "name": "¿Te Gustan los Videojuegos?",
                 "duration": 0,
-                "type": "video",
+                "type": "text",
                 "data": "resources/course-data/videos/example-2.mp4"
             },
         ]
     },
     {
         "id": "set-7-velocidad",
-        "name": "Velocidad y rapidez",
-        "special": 0,
-        "lessonNumber": 0,
+        "name": "Velocidad y Rapidez",
+        "special": 1,
+        "lessonNumber": 4,
         "lessons": [
             {
-                "id": "lesson-1",
-                "name": "Lección 1",
+                "id": "set-7-1",
+                "name": "Introducción",
                 "duration": 0,
-                "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "type": "text",
+                "data": "resources/course-data/text-data/"
+            },
+            {
+                "id": "set-7-2",
+                "name": "Espacio y Tiempo",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/text-data/"
+            },
+            {
+                "id": "set-7-3",
+                "name": "La Tienda",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/text-data/"
+            },
+            {
+                "id": "set-7-4",
+                "name": "A Tramos",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/text-data/"
             },
         ]
     },
     {
         "id": "set-8-velocidad-circ",
-        "name": "Como gato encerrado",
+        "name": "Como Gato Encerrado",
         "special": 0,
-        "lessonNumber": 0,
+        "lessonNumber": 4,
         "lessons": [
             {
-                "id": "lesson-1",
-                "name": "Lección 1",
+                "id": "set-8-1",
+                "name": "Introducción",
                 "duration": 0,
-                "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "type": "text",
+                "data": "resources/course-data/text-data/"
             },
-        ]
-    },
-    {
-        "id": "set-9-videojuegos",
-        "name": "¡Extra!: matemáticas y videojuegos",
-        "special": 1,
-        "lessonNumber": 0,
-        "lessons": [
             {
-                "id": "lesson-1",
-                "name": "Lección 1",
+                "id": "set-8-2",
+                "name": "¡Eso Yo Lo Sé Hacer!",
                 "duration": 0,
-                "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "type": "text",
+                "data": "resources/course-data/text-data/"
+            },
+            {
+                "id": "set-8-3",
+                "name": "Orbitando",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/text-data/"
+            },
+            {
+                "id": "set-8-4",
+                "name": "Tocadiscos",
+                "duration": 0,
+                "type": "text",
+                "data": "resources/course-data/text-data/"
             },
         ]
-    },
+    }
 
 ]
 
