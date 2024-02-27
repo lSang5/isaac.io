@@ -1,0 +1,5 @@
+Si entramos en lo más fundamental, en informática las imágenes se muestran con píxeles.
+Pero trabajar con estos píxeles es complicado, porque son muchísimos.
+Afortunadamente, hay un concepto matemático muy útil que facilita el proceso: las matrices.
+Gracias a las operaciones con matrices, los informáticos pueden representar gráficos en pantalla y aplicarles cambios sin tener que mover los píxeles de uno en uno.
+Pero eso no es todo…
