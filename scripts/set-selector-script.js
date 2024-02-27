@@ -169,7 +169,7 @@ const setsData = [
         "id": "set-6-videojuegos",
         "name": "¡Extra!: Mates y Videojuegos",
         "special": 1,
-        "lessonNumber": 0,
+        "lessonNumber": 3,
         "lessons": [
             {
                 "id": "set-6-1",
@@ -178,77 +178,19 @@ const setsData = [
                 "type": "text",
                 "data": "resources/course-data/videos/example-2.mp4"
             },
-        ]
-    },
-    {
-        "id": "set-7-velocidad",
-        "name": "Velocidad y Rapidez",
-        "special": 0,
-        "lessonNumber": 4,
-        "lessons": [
             {
-                "id": "set-7-1",
-                "name": "Introducción",
+                "id": "set-6-2",
+                "name": "Los Gráficos",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/text-data/"
+                "data": "resources/course-data/text-data/lesson6-1"
             },
             {
-                "id": "set-7-2",
-                "name": "Espacio y Tiempo",
+                "id": "set-6-3",
+                "name": "Las Físicas",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/text-data/"
-            },
-            {
-                "id": "set-7-3",
-                "name": "La Tienda",
-                "duration": 0,
-                "type": "text",
-                "data": "resources/course-data/text-data/"
-            },
-            {
-                "id": "set-7-4",
-                "name": "A Tramos",
-                "duration": 0,
-                "type": "text",
-                "data": "resources/course-data/text-data/"
-            },
-        ]
-    },
-    {
-        "id": "set-8-velocidad-circ",
-        "name": "Como Gato Encerrado",
-        "special": 0,
-        "lessonNumber": 4,
-        "lessons": [
-            {
-                "id": "set-8-1",
-                "name": "Introducción",
-                "duration": 0,
-                "type": "text",
-                "data": "resources/course-data/text-data/"
-            },
-            {
-                "id": "set-8-2",
-                "name": "¡Eso Yo Lo Sé Hacer!",
-                "duration": 0,
-                "type": "text",
-                "data": "resources/course-data/text-data/"
-            },
-            {
-                "id": "set-8-3",
-                "name": "Orbitando",
-                "duration": 0,
-                "type": "text",
-                "data": "resources/course-data/text-data/"
-            },
-            {
-                "id": "set-8-4",
-                "name": "Tocadiscos",
-                "duration": 0,
-                "type": "text",
-                "data": "resources/course-data/text-data/"
+                "data": "resources/course-data/text-data/lesson6-1"
             },
         ]
     }
