@@ -1,0 +1,6 @@
+Ya hemos aprendido a trabajar con polígonos.
+Pero, ¿qué ocurre con las figuras curvas?
+Bien, aquí tenemos que afrontar una dura realidad: calcular estos parámetros en la mayoría de figuras curvas de forma exacta, tenemos que aplicar matemáticas mucho más complicadas. Mucho, muchísimo más complicadas.
+Por suerte para nosotros, hay algunas figuras que no presentan tantos problemas: los círculos.
+Para trabajar con círculos hay un principio fundamental: el número “pi”.
+Pasa a la siguiente lección para aprender qué es.
