@@ -1,0 +1,6 @@
+Jorge va a salir a correr, y quiere dar quince vueltas a la manzana. Su manzana es cuadrada, y cada lado mide 70m. ¿Cuánto correrá?
+(Piensa un momento la solución y pasa cuando creas que la tienes).
+Para calcular cuánto corre, tenemos que calcular a cuánto equivale una vuelta a la manzana: el perímetro.
+Cada lado mide 70m,  y es un cuadrado con todos los lados iguales, así que resulta lógico multiplicar 70x4. El resultado es que una vuelta a la manzana equivale a 280m.
+Ahora tenemos que asumir las 15 vueltas. Esta parte es mucho más sencilla: 280*15=4200. 
+En resumen, Jorge corre 4200m.
