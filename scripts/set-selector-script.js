@@ -96,8 +96,8 @@ const setsData = [
                 "id": "set-4-1",
                 "name": "Introducción",
                 "duration": 0,
-                "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "type": "text",
+                "data": "resources/course-data/videos/text-data/lesson4-1"
             },
             {
                 "id": "set-4-2",
@@ -110,8 +110,8 @@ const setsData = [
                 "id": "set-4-3",
                 "name": "Vuelta a la Manzana",
                 "duration": 0,
-                "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "type": "text",
+                "data": "resources/course-data/text-data/lesson4-1"
             },
             {
                 "id": "set-4-4",
@@ -140,7 +140,7 @@ const setsData = [
                 "name": "Introducción",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "data": "resources/course-data/text-data/lesson5-1"
             },
             {
                 "id": "set-5-2",
@@ -154,14 +154,14 @@ const setsData = [
                 "name": "Longitud",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "data": "resources/course-data/text-data/lesson5-3"
             },
             {
                 "id": "set-5-4",
                 "name": "Área",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "data": "resources/course-data/text-data/lesson5-4"
             }
         ]
     },
