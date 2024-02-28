@@ -1,1 +1,4 @@
-
+Para el área seguiremos un procedimiento relativamente similar, pero en lugar de multiplicar el diámetro multiplicaremos el radio al cuadrado.
+En nuestro hipotético parque (recordemos, de 200 metros de radio), el diámetro es de 200*200=40000.
+Así, 200*200*3,14 = 125600.
+125600m² es el área del parque. ¡Bien hecho!
