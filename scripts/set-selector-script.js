@@ -17,7 +17,7 @@ const setsData = [
                 "name": "Aula de Clases",
                 "duration": 0,
                 "type": "video",
-                "data": "resources/course-data/video/example.mp4"
+                "data": "resources/course-data/video/example-1.mp4"
             },
             {
                 "id": "set-1-3",
@@ -97,7 +97,7 @@ const setsData = [
                 "name": "Introducción",
                 "duration": 0,
                 "type": "text",
-                "data": "resources/course-data/videos/text-data/lesson4-1"
+                "data": "resources/course-data/videos/text-data/lesson4-1.mp4"
             },
             {
                 "id": "set-4-2",
