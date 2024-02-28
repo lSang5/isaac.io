@@ -104,7 +104,7 @@ const setsData = [
                 "name": "Perímetro",
                 "duration": 0,
                 "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "data": "resources/course-data/videos/example-1.mp4"
             },
             {
                 "id": "set-4-3",
@@ -118,14 +118,14 @@ const setsData = [
                 "name": "Área",
                 "duration": 0,
                 "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "data": "resources/course-data/videos/example-1.mp4"
             },
             {
                 "id": "set-4-5",
                 "name": "Campo de  Fútbol",
                 "duration": 0,
                 "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "data": "resources/course-data/videos/example-1.mp4"
             },
         ]
     },
@@ -147,7 +147,7 @@ const setsData = [
                 "name": "En Pocas Palabras",
                 "duration": 0,
                 "type": "video",
-                "data": "resources/course-data/videos/example-2.mp4"
+                "data": "resources/course-data/videos/example-1.mp4"
             },
             {
                 "id": "set-5-3",
