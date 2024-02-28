@@ -104,7 +104,7 @@ const setsData = [
                 "name": "Perímetro",
                 "duration": 0,
                 "type": "video",
-                "data": "resources/course-data/videos/example-1.mp4"
+                "data": "resources/course-data/videos/lesson4-2.mp4"
             },
             {
                 "id": "set-4-3",
