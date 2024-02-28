@@ -1,9 +1,6 @@
-[aparece en grande el número pi]
-Este es nuestro querido número pi. Sí, es una letra griega.
-[Los decimales de pi van pasando en horizontal por la pantalla] Pi tiene muchos decimales. Infinitos, de hecho. Por eso se le llama como una letra griega, porque no conocemos todos sus decimales.
-[La pantalla vuelve a negro de golpe]
-¿Y esto para qué me sirve?
-Podemos pensarlo de la siguiente forma: pi es como una aplanadora que convierte curvas en círculos.
-[Se ve una animación de un círculo estirándose como una línea]
-Si lo multiplicamos por el diámetro de un círculo [se ve abajo la definición de diámetro], tenemos el perímetro del círculo.
-Y si lo multiplicamos por el radio al cuadrado [se ve la definición de radio], tenemos su área. ¡Así de simple!
+Vamos a hacer un ejercicio para practicar un poco.
+¿Cuántos metros de valla necesitamos para rodear un área circular de 100m de radio?
+(Piensa tranquilamente el problema).
+Bien, es muy sencillo: calcularemos la longitud de la circunferencia. Necesitamos multiplicar pi (que estimamos como 3,14) por el diámetro, que será el doble del radio (100 x 2 = 200).
+Haciendo cálculos: 200 x 3,14 = 628.
+¡Excelente! Necesitamos 628m de valla.
